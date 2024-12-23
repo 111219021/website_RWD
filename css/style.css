@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: white !important;
+}
+
+.banner {
+    background: linear-gradient(60deg, #e4943d 10%, #a6095d 80%);
+    color: white;
+    padding: 100px 0 50px 0;
+    text-align: center;
+}
+
+.section-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section {
+    padding-top: 70px;
+}
+
+video,
+iframe {
+    max-width: 100%;
+    height: auto;
+}
